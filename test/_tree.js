@@ -3,7 +3,7 @@ const Tree = require('../src/tree');
 
 let tree = null;
 
-describe('Tree', () => {
+xdescribe('Tree', () => {
   beforeEach(() => {
     tree = new Tree(1);
   });
@@ -40,7 +40,7 @@ describe('Tree', () => {
       tree.addChild(2);
       tree.children[0].addChild(20);
       tree.children[0].children[0].addChild(200);
-      tree.traverse((e) => test.push(e.value));
+      tree.traverse(e => test.push(e.value));
       expect(test).to.deep.equal([1, 2, 20, 200]);
     });
   }); 
