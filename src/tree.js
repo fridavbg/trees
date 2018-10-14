@@ -1,23 +1,20 @@
 /* ----------------------
-Note: BEFORE tackling the LinkedList class
-below, read the tests in the test file.
+Note: BEFORE tackling the class below,
+read the tests in the test file.
 ---------------------- */
-
-class Node {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
-}
 
 class Tree {
   constructor(value) {
-    this.root = new Node(value);
+    this.value = value;
+    this.children = [];
   }
 
-  add() {}
+  // adds a child to the tree
+  addChild(value) {}
 
-}
+  // checks children for the value
+  contains(value) {}
+
+} 
 
 module.exports = Tree;
