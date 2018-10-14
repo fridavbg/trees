@@ -10,6 +10,7 @@ class Tree {
   }
 
   addChild(value) {
+    this.children.push(new Tree(value));
     // push a new tree into the current tree's children
   }
 
@@ -22,6 +23,8 @@ class Tree {
 
     // return false if not found at all
   }
+
+  traverse(fn) {}
 
 } 
 
