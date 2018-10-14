@@ -31,7 +31,8 @@ Run `yarn test` to run tests.
         edge cases so that all of these other tests pass!
 
 ## Resources
-  -
+  - [Explanation of tree](https://medium.com/the-renaissance-developer/learning-tree-data-structure-27c6bb363051)
+  - [Description of binary trees](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/trees.html)
 
 ## Notes
 _This is a student project that was created at [Codely](http://codely.tech), a full stack development bootcamp in Barcelona._

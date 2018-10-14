@@ -19,7 +19,6 @@ class BinaryTree {
 
   // apply callback in this order: left node, current node, right node
   traverseDepthFirstInOrder(fn) {}
-  }
 
   // apply callback from left to right across each level
   // hint: use a queue for this!
