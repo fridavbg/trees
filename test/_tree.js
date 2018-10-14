@@ -3,7 +3,7 @@ const Tree = require('../src/tree');
 
 let tree = null;
 
-xdescribe('Tree', () => {
+describe('Tree', () => {
   beforeEach(() => {
     tree = new Tree(1);
   });

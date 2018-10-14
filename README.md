@@ -24,7 +24,7 @@ Run `yarn test` to run tests.
       the steps of your solution. This will help you stay on
       track with what you need to write.
 
-### 2. Complete the pending tests as well.
+### 2. Optional: complete the pending tests as well.
   - [ ] After you pass all of the tests, get rid of the `x` on the
     additional tests that currently say "pending".
       - Now, go back to your methods and write code to handle
