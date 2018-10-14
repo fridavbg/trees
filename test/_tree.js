@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const Tree = require('../src/_tree');
+const Tree = require('../src/tree');
 
 let tree = null;
 
@@ -24,14 +24,18 @@ describe('Tree', () => {
       tree.addChild(2);
       expect(tree.contains(3)).to.equal(false);
     });
-    it('should correctly detect nested grandchildren and great-grandchildren', () => {
-      let child = tree.addChild(2);
-      let grandchild = child.addChild(20);
-      grandchild.addChild(200);
+    it('should correctly detect nested grandchildren', () => {
+      tree.addChild(2);
+      tree.children[0].addChild(20);
       expect(tree.contains(20)).to.equal(true);
       expect(tree.contains(30)).to.equal(false);
+    });
+    it('should correctly detect nested great-grandchildren', () => {
+      tree.addChild(2);
+      tree.children[0].addChild(20);
+      tree.children[0].children[0].addChild(200);
       expect(tree.contains(200)).to.equal(true);
-      expect(tree.contains(300)).to.equal(true);
+      expect(tree.contains(300)).to.equal(false);
     });
   }); 
 

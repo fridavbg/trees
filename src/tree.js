@@ -9,11 +9,19 @@ class Tree {
     this.children = [];
   }
 
-  // adds a child to the tree
-  addChild(value) {}
+  addChild(value) {
+    // push a new tree into the current tree's children
+  }
 
-  // checks children for the value
-  contains(value) {}
+  contains(value) {
+    // if the tree value matches the value passed in
+      // return true
+    // else
+      // loop through all the children
+        // call the contains method located on each child (pass the value in)
+
+    // return false if not found at all
+  }
 
 } 
 
