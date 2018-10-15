@@ -1,4 +1,4 @@
-# Linked Lists
+# Trees
 
 In this repository, you will practice writing a tree class.
 
