@@ -4,7 +4,7 @@ const BinaryTree = require('../src/binary_tree');
 let binaryTree = null;
 
 /*------------------
-Primary test used:
+Primary test case used:
 
       10
     /    \
