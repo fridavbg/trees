@@ -1,11 +1,11 @@
 # Trees
 
-In this repository, you will practice writing a tree class.
+In this repository, you will practice writing tree classes.
 
 ## Objectives
 
-  - Create a class for a tree data structure.
-  - Create common methods included in a tree.
+  - Create a class for both tree and binary search tree data structures.
+  - Create common methods included in a tree and binary search tree.
   - Practice recursion.
 
 ## Setup
@@ -15,7 +15,14 @@ Run `yarn test` to run tests.
 
 ## Basic Requirements
 
-### 1. Complete the Trees class.
+### 1. Complete the Tree class.
+  - [ ] First, look at the tests! This will help you
+      figure out what methods you need to write.
+  - [ ] Once you are ready to add your methods, pseudocode
+      the steps of your solution. This will help you stay on
+      track with what you need to write.
+      
+### 2. Complete the BinaryTree class.
   - [ ] First, look at the tests! This will help you
       figure out what methods you need to write.
       - Note that some of the tests are in pending
@@ -24,7 +31,7 @@ Run `yarn test` to run tests.
       the steps of your solution. This will help you stay on
       track with what you need to write.
 
-### 2. Optional: complete the pending tests as well.
+### 3. Optional: complete the pending tests as well.
   - [ ] After you pass all of the tests, get rid of the `x` on the
     additional tests that currently say "pending".
       - Now, go back to your methods and write code to handle
